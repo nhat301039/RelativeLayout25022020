@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <!-- ctrl + alt / : format dòng code-->
+    <TextView
+        android:textColor="#ffff"
+        android:background="#6E1A0D"
+        android:id="@+id/textviewRed"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Red"
+        android:textSize="30sp" />
+    <TextView
+       android:layout_below="@id/textviewRed"
+        android:layout_alignLeft="@id/textviewRed"
+       android:id="@+id/Green"
+        android:textColor="#ffff"
+        android:background="#10D518"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Green"
+        android:textSize="30sp" />
+    <TextView
+
+    android:id="@+id/Blue"
+    android:layout_below="@id/Green"
+    android:layout_alignLeft="@id/textviewRed"
+    android:layout_centerInParent="true"
+    android:textSize="30sp"
+    android:textColor="#ffff"
+    android:background="#0D60ED"
+    android:text="Blue"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+    <TextView
+
+        android:id="@+id/Orange"
+        android:layout_below="@id/Blue"
+        android:layout_alignLeft="@id/textviewRed"
+        android:layout_centerInParent="true"
+        android:textSize="30sp"
+        android:textColor="#ffff"
+        android:background="#D5902C"
+        android:text="Orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/Gray"
+        android:layout_below="@id/Orange"
+        android:layout_alignLeft="@id/textviewRed"
+        android:textColor="#ffff"
+        android:textSize="30sp"
+        android:layout_centerInParent="true"
+        android:background="#6E6867"
+        android:text="Gray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_below="@+id/Gray"
+        android:layout_alignLeft="@id/textviewRed"
+        android:layout_centerInParent="true"
+        android:background="#CE2CEA"
+        android:textSize="30sp"
+        android:textColor="#ffff"
+        android:text="Prink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
+
+
+
+
